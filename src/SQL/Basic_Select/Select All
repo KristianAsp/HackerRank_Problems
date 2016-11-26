@@ -1,0 +1,6 @@
+
+-- https://www.hackerrank.com/challenges/select-all-sql for table and information on question
+-- Query all columns (attributes) for every row in the CITY table.
+
+SELECT *
+from CITY;
