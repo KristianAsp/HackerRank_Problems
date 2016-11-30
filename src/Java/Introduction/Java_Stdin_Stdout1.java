@@ -3,7 +3,8 @@ package Java.Introduction;
 import java.util.Scanner;
 
 /************************************
- AUTHOR: Kristian Andre Aspevik on 14/11/2016.
+ Created by Kristian André Aspevik on 14/11/2016.
+ https://www.hackerrank.com/challenges/java-stdin-and-stdout-1
  ************************************/
 
 
