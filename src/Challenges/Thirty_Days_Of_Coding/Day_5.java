@@ -17,5 +17,7 @@ public class Day_5 {
         {
             System.out.println(n + " x " + i + " = " + n * i);
         }
+
+        in.close();
     }
 }

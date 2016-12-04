@@ -35,5 +35,7 @@ public class Day_6 {
 
             System.out.println(even + " " + odd);
         }
+
+        scan.close();
     }
 }

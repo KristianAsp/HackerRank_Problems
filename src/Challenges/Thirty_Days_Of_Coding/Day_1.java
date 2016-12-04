@@ -25,6 +25,7 @@ public class Day_1 {
         var1 = Integer.parseInt(scan.nextLine());
         var2 = Double.parseDouble(scan.nextLine());
         var3 = scan.nextLine();
+        scan.close();
 
         /* 3. Use the  operator to perform the following operations:
               - Print the sum of i plus your int variable on a new line.

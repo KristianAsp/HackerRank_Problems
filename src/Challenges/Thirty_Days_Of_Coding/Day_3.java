@@ -8,17 +8,20 @@ import java.util.Scanner;
  */
 public class Day_3 {
 
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         Scanner scan = new Scanner(System.in);
         int n = scan.nextInt();
         scan.close();
         String result = "";
 
         // If the remainder of n/2 = 1, it is odd
-        if(n % 2 == 1){
+        if(n % 2 == 1)
+        {
             result = "Weird";
         }
-        else{
+        else
+        {
             if(n > 1 && n < 6) {
                 result = "Not Weird";
             }
@@ -29,6 +32,7 @@ public class Day_3 {
                 result = "Not Weird";
             }
         }
+
         System.out.println(result);
     }
 

@@ -10,7 +10,8 @@ import java.util.Scanner;
  */
 public class Day_7 {
 
-    public static void main(String[] args){
+    public static void main(String[] args)
+    {
         Scanner scan = new Scanner(System.in);
         int arraySize = scan.nextInt();
         int[] input = new int[arraySize];
@@ -24,6 +25,8 @@ public class Day_7 {
         {
             System.out.print(input[i] + " ");
         }
+
+        scan.close();
     }
 
 }
